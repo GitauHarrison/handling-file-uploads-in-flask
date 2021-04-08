@@ -29,7 +29,7 @@ def index():
             file_ext = os.path.splitext(filename)[1]
             if file_ext not in app.config['UPLOAD_EXTENSIONS'] or \
                     file_ext != validate_image(uploaded_file.stream):
-                return 'Invalid image', 400  # <------ update
+                return 'Invalid image', 400
             uploaded_file.save(os.path.join(app.config['UPLOAD_PATH'], filename))
         return redirect(url_for('index'))
     return render_template('index.html', title='Home', form=form, files=files)
