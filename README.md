@@ -2,7 +2,7 @@
 
 One feature of web applications is the ability to upload a file to an app. Flask provides for such implementations. [In this article](https://github.com/GitauHarrison/notes/blob/master/file_upload_in_flask.md), I show how one can create a simple Flask app from scratch and allow for file uploads.
 
-Kindly note that this project assumes you have a basic understinding of Flask. You need to at least know how to structure a flask application and use various flask and Python packages. If you are not already familiar with Flask, consider looking at this introdutory [personal blog web development tutorial](https://gitauharrison-blog.herokuapp.com/personal-blog) to learn more.
+Kindly note that this project assumes you have a basic understinding of Flask. You need to at least know how to structure a flask application and use various flask and Python packages. If you are not already familiar with Flask, consider looking at this introdutory [personal blog web development tutorial](https://github.com/GitauHarrison/notes/blob/master/web_development/personal_blog/personal_blog.md) to learn more.
 
 ### Features
 
