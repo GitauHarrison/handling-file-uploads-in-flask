@@ -1,6 +1,7 @@
 from app import app
+from flask import render_template
 
 
-@app.errorhandler(413)
-def file_too_large(error):
-    return 'File is too large', 413
+@app.errorhandler(404)
+def not_found(error):
+    return render_template('errors/404.html'), 404

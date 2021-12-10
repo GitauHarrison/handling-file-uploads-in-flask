@@ -1,30 +1,9 @@
-{% extends "base.html" %}
-{% import 'bootstrap/wtf.html' as wtf %}
+{% extends 'base.html' %}
 
-{% block app_content %}
-    <div class="row">
-        <div class="col-sm-12 col-md-4 col-lg-2">
-            <!-- empty -->
-        </div>
-        <div class="col-sm-12 col-md-4 col-lg-8">
-            <!-- {{ wtf.quick_form(form) }} -->
-            <form action="{{ url_for('index') }}" class="dropzone" method="POST" enctype="multipart/form-data" novalidate>
-                {{ form.hidden_tag() }}                        
-            </form>
-        </div>
-        <div class="col-sm-12 col-md-4 col-lg-2">
-             <!-- empty -->
-        </div>        
-    </div><hr>
-
-    <!-- display content in uploads folder -->
-    <div class="row">
-        <div class="col-sm-12 col-md-4 col-lg-2">
-            {% for file in files %}
-                <img src="{{ url_for('upload', filename=file) }}" style="width: 64px;">
-            {% endfor %}
-        </div>
-    </div>
-    <!-- end of display -->
-   
+{% block app_context %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>Hello, world!</h1>
+    </div>  
+</div>
 {% endblock %}
