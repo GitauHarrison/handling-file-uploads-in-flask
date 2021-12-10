@@ -4,21 +4,21 @@ One feature of web applications is the ability to upload a file to an applicatio
 
 ![File Upload](app/static/images/upload_files.gif)
 
-### Features
+## Features
 
 * File Upload
 
-### Tools Used
+## Tools Used
 
 * Flask Framework
 * Twitter Bootstrap for styling
 * Python3 for programming
 * Flask-WTF for form creation
 
-### Contributors
+## Contributors
 * [Gitau Harrison](https://github.com/GitauHarrison)
 
-### Testing
+## Testing
 
 To test the project, youcan clone this repo to your local machine by running the command below in your terminal:
 
@@ -44,14 +44,14 @@ Run the application:
 (file_upload)$ flask run
 ```
 
-### Deployment
+## Deployment
 
 - [File Upload App](https://handling-file-uploads.herokuapp.com/) on Heroku
 
-### Learn
+## Learn
 
 If you would like to see how the application can be built from scratch, [here is an article](https://github.com/GitauHarrison/notes/blob/master/upload_files_to_database.md) you can refer to.
 
-# References
+## References
 
 - [Handling file uploads in flask](https://blog.miguelgrinberg.com/post/handling-file-uploads-with-flask/page/4#comments)
