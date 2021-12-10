@@ -44,6 +44,10 @@ Run the application:
 (file_upload)$ flask run
 ```
 
+# Deployment
+
+- [File Upload App](https://handling-file-uploads.herokuapp.com/) on Heroku
+
 # Learn
 
 If you would like to see how the application can be built from scratch, [here is an article](https://github.com/GitauHarrison/notes/blob/master/upload_files_to_database.md) you can refer to.
