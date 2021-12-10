@@ -14,3 +14,6 @@ class Config(object):
 
     # File Upload
     UPLOAD_PATH = os.environ.get('UPLOAD_PATH') or 'app/static/uploads'
+
+    # Heroku logs
+    LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
